@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.imagine.mohamedtaha.store.MainActivity">
+
+    <item
+        android:id="@+id/m_delete"
+        android:icon="@drawable/ic_action_delete_forever"
+        android:orderInCategory="100"
+        android:title="@string/delete"
+        app:showAsAction="always" />
+
+</menu>

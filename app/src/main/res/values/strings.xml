@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">مخازن</string>
+    <string name="title_empty_view_category">ابدأ بإضافة المنتجات </string>
+    <string name="content_picture"> لا توجد بيانات</string>
+    <string name="error_image">يجب إختيار صورة للمنتج </string>
+    <string name="the_galary">الاستوديو</string>
+    <string name="add_category_titile">اضافة المنتج </string>
+    <string name="edit_category_titile">تعديل المنتج </string>
+    <string name="BtAdd">إضافة </string>
+    <string name="BTDelete">حذف </string>
+    <string name="error_empty_text">لا يمكن ترك حقل اسم المنتج فارغ  </string>
+    <string name="error_empty_text_name">لا يمكن ترك حقل اسم المورد فارغ  </string>
+    <string name="error_empty_phone">لا يمكن ترك حقل رقم الجوال فارغ  </string>
+
+    <string name="error_empty_text_or_zero">لا يمكن ترك حقل سعر المنتج  أو الكمية فارغ أو تكون قمته 0 </string>
+    <!-- Dialog button text for the option to confirm deleting the current category [CHAR LIMIT=20] -->
+    <string name="delete">مسح</string>
+    <string name="order">الإتصال بالمورد</string>
+    <!-- Dialog message to ask the user to confirm deleting the current category [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">هل تريد مسح هذا المنتج ؟ </string>
+    <!-- Dialog button text for the option to cancel deletion of the current category [CHAR LIMIT=20] -->
+    <string name="cancel">لا</string>
+
+    <!-- Toast message in editor when new category has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_category_failed">خطأ في حفظ المنتج </string>
+    <!-- Toast message in editor when new category has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_category_successful">تم حفظ المنتج بنجاح </string>
+
+    <!-- Toast message in editor when current category has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_category_failed">خطأ في تعديل المنتج</string>
+    <string name="error_quantity_lees_zero">لا يمكن أن تكون الكمية أقل من  0</string>
+
+    <!-- Toast message in editor when current category was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_category_successful">تم تعديل المنتج بنجاح </string>
+
+    <!-- Toast message in editor when current category has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_Category_failed">خطأ في مسح المنتج </string>
+    <!-- Toast message in editor when current category was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_category_successful">تم مسح المنتج بنجاح </string>
+
+    <string name="product_name"> اسم المنتج</string>
+    <string name="product_price"> سعر المنتج</string>
+    <string name="product_quantity">الكمية</string>
+    <string name="product_picture">صورةالمنتج</string>
+    <string name="supplier_name"> اسم المورد</string>
+    <string name="decrice"> +</string>
+    <string name="in_decrice"> -</string>
+
+    <string name="supplier_phone_number">رقم تليفون المورد</string>
+    <string name="bt_sale">بيع</string>
+    <string name="bt_edit">تعديل</string>
+
+    <!-- TODO: Splach Activity -->
+
+    <string name="text_splash">  مخزنك</string>
+
+</resources>

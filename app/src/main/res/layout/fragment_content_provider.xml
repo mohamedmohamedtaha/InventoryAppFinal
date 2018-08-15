@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/icons"
+        android:orientation="vertical"
+        tools:context="com.imagine.mohamedtaha.store.TestFragmentContentProvider">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_title">
+
+            <ImageView
+                android:id="@+id/image_titile"
+                style="@style/ImageViewTitle" />
+
+            <TextView
+                android:id="@+id/TVTitleCategory"
+                style="@style/TextViewTitle"
+                android:text="@string/add_category_titile" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginTopTen"
+            android:layout_marginEnd="@dimen/margingRight"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_galary"
+                style="@style/ButtonFragmentOrder"
+                android:text="@string/the_galary" />
+
+            <ImageView
+                android:id="@+id/product_picture"
+                android:layout_width="@dimen/marginOneHandred"
+                android:layout_height="@dimen/marginEighty"
+                android:layout_marginTop="@dimen/marginTopTen" />
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_product_name"
+                style="@style/EditTextFragmentTextFirst"
+                android:hint="@string/product_name"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_product_price"
+                style="@style/EditTextFragmentTextSecond"
+                android:hint="@string/product_price"
+                android:inputType="number"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/et_quantity"
+                style="@style/EditTextFragmentTextSecond"
+                android:hint="@string/product_quantity"
+                android:inputType="number"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/et_supplier_name"
+                style="@style/EditTextFragmentTextSecond"
+                android:hint="@string/supplier_name"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/et_supplier_phone"
+                style="@style/EditTextFragmentTextSecond"
+                android:hint="@string/supplier_phone_number"
+                android:inputType="phone" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout style="@style/LayoutButtonFragment">
+
+
+            <Button
+                android:id="@+id/BTAddCategory"
+                style="@style/ButtonSale"
+                android:text="@string/BtAdd" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

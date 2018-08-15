@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="marginTop">30dp</dimen>
+    <dimen name="marginTopTwenty">20dp</dimen>
+    <dimen name="marginTopTwentyFive">25dp</dimen>
+    <dimen name="marginTopFifity">50dp</dimen>
+    <dimen name="marginOneHandredFifty">150dp</dimen>
+    <dimen name="marginOneHandred">100dp</dimen>
+    <dimen name="marginEighty">80dp</dimen>
+    <dimen name="marginTopTen">10dp</dimen>
+    <dimen name="marginFive">5dp</dimen>
+    <dimen name="marginTwo">2dp</dimen>
+    <dimen name="marginOne">1dp</dimen>
+
+    <dimen name="marginEight">8dp</dimen>
+    <dimen name="marginZero">0dp</dimen>
+    <dimen name="marginFeftyFive">25dp</dimen>
+    <dimen name="marginBottom">30dp</dimen>
+
+    <dimen name="paddingLft">16dp</dimen>
+    <dimen name="margingRight">30dp</dimen>
+    <dimen name="text_size_twenty">20sp</dimen>
+    <dimen name="text_size_eighty">18sp</dimen>
+    <dimen name="text_size_fifty">15sp</dimen>
+    <dimen name="text_size_fourty">14sp</dimen>
+
+</resources>

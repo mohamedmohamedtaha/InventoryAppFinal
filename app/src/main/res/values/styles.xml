@@ -1,0 +1,235 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- Customize your Floating Button Fragment here. -->
+    <style name="FloatingButtonFragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+    </style>
+    <!-- Customize your ListView and RecycleView here. -->
+    <style name="ListViewAndRecycleView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Customize your emptyView. -->
+
+    <style name="EmptyViewTextViewMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginTop">45dp</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+
+    </style>
+
+    <style name="EmptyViewTextViewSecond">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingTop">@dimen/marginEight</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+
+    </style>
+
+    <style name="EmptyViewImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/ic_reports</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:contentDescription">@string/content_picture</item>
+
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+
+    </style>
+
+
+    <!-- Customize your CardView. -->
+    <style name="CardViewStyleData">
+        <item name="android:layout_width">@dimen/marginZero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_size_eighty</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="CardViewStyleDataProductName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:layout_marginTop">@dimen/marginTopTen</item>
+        <item name="android:textSize">@dimen/text_size_eighty</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="CardViewStyleMain">
+        <item name="android:layout_width">@dimen/marginZero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/text_size_fifty</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardViewStyleNameProduct">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/text_size_fifty</item>
+        <item name="android:layout_marginTop">@dimen/marginTopTen</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Customize your CardView for Store and Permission and Category. -->
+    <style name="CardViewStyleDataForStore">
+        <item name="android:layout_width">@dimen/marginZero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textSize">@dimen/text_size_eighty</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+
+    <!-- Customize your Image in Title Fragment. -->
+    <style name="ImageViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/marginTop</item>
+        <item name="android:src">@mipmap/ic_reports</item>
+        <item name="android:layout_marginEnd">@dimen/marginFive</item>
+        <item name="android:layout_marginBottom">@dimen/marginTopTen</item>
+        <item name="android:layout_marginTop">@dimen/marginFive</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:description">@string/content_picture</item>
+
+    </style>
+
+
+    <!-- Customize your Title Text in Title Fragment. -->
+    <style name="TextViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_eighty</item>
+        <item name="android:layout_marginEnd">@dimen/paddingLft</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_toLeftOf">@id/image_titile</item>
+        <item name="android:textColor">@color/icons</item>
+    </style>
+
+    <style name="TextViewShow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_fourty</item>
+        <item name="android:layout_marginStart">@dimen/marginTopFifity</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!-- Customize Edit Text in for Fragment. -->
+    <style name="EditTextFragmentTextFirst">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/margingRight</item>
+        <item name="android:layout_marginTop">@dimen/margingRight</item>
+        <item name="android:layout_marginStart">@dimen/margingRight</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+
+    </style>
+
+    <!-- Customize Edit Text in for Fragment. -->
+    <style name="EditTextFragmentTextSecond">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/margingRight</item>
+        <item name="android:layout_marginTop">@dimen/marginTopTen</item>
+        <item name="android:layout_marginStart">@dimen/margingRight</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+
+    </style>
+
+
+    <!-- Customize Button in for Fragment. -->
+    <style name="ButtonFragment">
+        <item name="android:layout_width">@dimen/marginBottom</item>
+        <item name="android:layout_height">@dimen/marginBottom</item>
+        <item name="android:layout_marginEnd">@dimen/marginTopTen</item>
+        <item name="android:layout_marginTop">@dimen/marginFive</item>
+        <item name="android:layout_marginBottom">@dimen/marginFive</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:background">@drawable/shape_button</item>
+        <item name="android:textSize">@dimen/text_size_fifty</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonFragmentOrder">
+        <item name="android:layout_width">@dimen/marginOneHandred</item>
+        <item name="android:layout_height">@dimen/marginTop</item>
+        <item name="android:layout_marginEnd">@dimen/marginTop</item>
+        <item name="android:layout_marginTop">@dimen/marginTopTen</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/marginFive</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:background">@drawable/shape_button</item>
+        <item name="android:textSize">@dimen/text_size_fifty</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonSale">
+        <item name="android:layout_width">@dimen/marginTopFifity</item>
+        <item name="android:layout_height">@dimen/marginTop</item>
+        <item name="android:layout_marginEnd">@dimen/marginTopTen</item>
+        <item name="android:layout_marginTop">@dimen/marginFive</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:background">@drawable/shape_button</item>
+        <item name="android:textSize">@dimen/text_size_fifty</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Customize LayoutButton in for Fragment. -->
+    <style name="LayoutButtonFragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTopTwentyFive</item>
+        <item name="android:layout_marginBottom">@dimen/marginTopTwenty</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

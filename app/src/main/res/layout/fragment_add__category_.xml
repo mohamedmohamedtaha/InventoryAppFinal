@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.imagine.mohamedtaha.store.Add_Category_Fragment_ContentProvider">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleViewAddCategory"
+        style="@style/ListViewAndRecycleView"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/empty_view_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/empty_image"
+            style="@style/EmptyViewImage" />
+
+        <TextView
+            android:id="@+id/empty_text_first"
+            style="@style/EmptyViewTextViewMain"
+            android:layout_below="@+id/empty_image"
+            android:text="@string/content_picture" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            style="@style/EmptyViewTextViewSecond"
+            android:layout_below="@+id/empty_text_first"
+            android:text="@string/title_empty_view_category" />
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_category"
+        style="@style/FloatingButtonFragment"
+        app:fabSize="auto"
+        app:srcCompat="@drawable/ic_action_add" />
+
+</RelativeLayout>

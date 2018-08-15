@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imagine.mohamedtaha.store.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageSplash"
+        android:layout_width="@dimen/marginOneHandredFifty"
+        android:layout_height="@dimen/marginOneHandredFifty"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_reports" />
+
+    <TextView
+        android:id="@+id/TVIdLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageSplash"
+        android:gravity="center"
+        android:text="@string/text_splash"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_size_twenty"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/icons"
+    android:paddingEnd="@dimen/paddingLft"
+    android:paddingStart="@dimen/paddingLft"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <ImageView
+        android:id="@+id/product_picture_detail"
+        android:layout_width="@dimen/marginOneHandred"
+        android:layout_height="@dimen/marginEighty"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/marginTopTen" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_product_name"
+            style="@style/CardViewStyleMain" />
+
+        <TextView
+            style="@style/CardViewStyleData"
+            android:text="@string/product_name" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_product_price"
+            style="@style/CardViewStyleMain" />
+
+        <TextView
+            style="@style/CardViewStyleData"
+            android:text="@string/product_price" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_product_quantity"
+            style="@style/CardViewStyleMain" />
+
+        <TextView
+            style="@style/CardViewStyleData"
+            android:text="@string/product_quantity" />
+    </TableRow>
+
+    <LinearLayout style="@style/LayoutButtonFragment">
+
+        <Button
+            android:id="@+id/bt_incre"
+            style="@style/ButtonFragment"
+            android:layout_marginEnd="@dimen/marginTopFifity"
+            android:text="@string/in_decrice" />
+
+        <Button
+            android:id="@+id/bt_dec"
+            style="@style/ButtonFragment"
+            android:text="@string/decrice" />
+    </LinearLayout>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_supplier_name"
+            style="@style/CardViewStyleMain" />
+
+        <TextView
+            style="@style/CardViewStyleData"
+            android:text="@string/supplier_name" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_supplier_phone"
+            style="@style/CardViewStyleMain" />
+
+        <TextView
+            style="@style/CardViewStyleData"
+            android:text="@string/supplier_phone_number" />
+    </TableRow>
+
+    <LinearLayout style="@style/LayoutButtonFragment">
+
+        <Button
+            android:id="@+id/bt_order"
+            style="@style/ButtonFragmentOrder"
+            android:text="@string/order" />
+    </LinearLayout>
+</TableLayout>
